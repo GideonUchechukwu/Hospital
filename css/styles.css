@@ -101,6 +101,38 @@ img {
     height: 500px;
 }
 
+#head {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    width: 100%;
+    height: 600px;
+
+}
+
+.serve {
+    width: 700px;
+    height: 400px;
+    margin-top: 200px;
+    justify-content: space-between;
+    gap: 70px;
+    border-radius: 25px;
+}
+
+img {
+    border-radius: 50px;
+}
+
+.closing {
+    margin-top: 30px;
+}
+
 .address {
     display: flex;
     justify-content: center;
